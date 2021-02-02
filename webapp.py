@@ -30,4 +30,5 @@ if __name__ == "__main__":
 	# handler_general.setLevel(logging.ERROR)
 	# handler_general.setLevel(logging.CRITICAL)
 	app.logger.addHandler(handler_general)
-	app.run(port=5000)
+	app.run(host="0.0.0.0",port=5001)
+
